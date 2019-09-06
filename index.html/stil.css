@@ -1,0 +1,25 @@
+body{
+	background-image: url(изображение/fon.png) 
+}
+.menu{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 48%
+}
+.button{
+	display: inline-block;
+	border-color: #000000
+	font-weight: 700;
+	text-decoration: none;
+	padding: 5px 2px;
+	outline: none;
+	border: 2px solid;
+	border-radius: 1px;
+	transition: 0.2s;
+	size: 20px;
+	width: 150px;
+	height: 40px;
+	text-align:center
+}
+.button:hover {border: 5px ridge #F5FF00}
+.button:active {background: black;} 
