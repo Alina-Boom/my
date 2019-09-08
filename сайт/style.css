@@ -1,0 +1,645 @@
+html{
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+body{
+	background-color: #eaeaea;
+}
+header{
+	width: 1120px;
+	padding-top: 158px;
+	padding-bottom: 115px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-logo{
+	width: 382px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav{
+	width: 1120px;
+	background: #f8f8f8;
+	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+    display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+		    justify-content: center;
+    -webkit-box-align: center;
+	    -ms-flex-align: center;
+		     align-items: center;
+	margin-bottom: 83px;
+	padding: 43px 0;
+}
+.nav-items{
+	width: 950px;
+	text-transform: uppercase;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+		 align-items: center; 
+}
+.nav-logo{
+	width: 87px;
+	margin-right: 90px;
+}
+.nav-links {
+	width: 534px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+		justify-content: space-between;
+}	
+.nav-links a {
+	font-family: "Josefin Sans", sans;
+	font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;	
+}
+.nav-search {
+	width: 162px;
+	margin-left: auto;
+}
+.nav-search input{
+	font-family: "Josefin Sans", sans;
+	font-weight: 300;
+	padding: 7px 10px;
+}	
+.nav-search input::-webkit-input-placeholder {
+ 	color: grey; 
+}
+.nav-search input::-moz-placeholder {
+	color: grey; 
+}
+.nav-search input:-ms-input-placeholder {
+    color: grey; 
+}	
+.nav-search input::-ms-input-placeholder {
+	color: grey; 
+}
+.nav-search input::placeholder {
+	color: grey;
+}
+img{
+	display: block;
+    width: 100%;
+    border-style: none;	
+}
+.bananas {
+  background-color: #f8f8f8;
+  width: 1120px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 55px;
+  padding-left: 93px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 83px;	  
+}
+.bananas-header {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #921026;
+}
+.bananas-description {
+  width: 360px;
+  font-family: "Josefin Sans", sans;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  margin-bottom: .6rem;
+}
+.bananas-logo{
+  width: 252px; 
+}
+.bananas-button {
+  padding: 0;
+  width: 105px;
+  border: 1.0px solid #c2c2c2;
+  font-family: "Josefin Sans", sans;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 6px;
+  padding-right: 6px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+.bananas-button:hover {
+  background-color: whitesmoke;
+  color: #0a0a0a; 
+}
+.dishes {
+  background-color: #ffffff;
+  width: 1120px;
+  margin: auto;
+  padding: 50px 40px 45px 53px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 83px;
+}
+.dishes-wrapper { 
+  width: 1023px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.dish {
+  width: 313px; 
+}		  
+.dish-image {
+  display: block;
+  width: 313px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.dish-image img {
+	-webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s,-webkit-transform .5s;	
+}
+.dish-image img:hover {
+    -webkit-transform: scale(1.025);
+        -ms-transform: scale(1.025);
+            transform: scale(1.025);
+}
+.dish-description {
+  margin-top: 0;
+  font-family: "Josefin Sans", sans;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.dish-descriptiton-elements {  
+  width: 125px;
+  font-family: 'Open Sans', sans;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #555555;
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}	
+.clock-icon {
+  width: 11px; 
+}
+.dish-paragraph {
+  padding: 0;
+  margin: 0;
+  margin-right: 3px; 
+}
+.line {
+  margin-right: 4px;
+  width: 1px; 
+}
+.comment {
+  width: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 4px; 
+}
+.comment-icon {
+  width: 13px;
+  margin-right: 2px;
+  -ms-flex-item-align: center;
+      align-self: center; 
+}
+.view {
+  width: 49px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+}
+.view-icon {
+  width: 13px;
+  margin-right: 2px;
+  -ms-flex-item-align: center;
+      align-self: center; 
+}
+.cinnamon{
+  width: 1120px;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 560px 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "cinnamon-image cinnamon-recipe";
+  padding-bottom: 0;
+  margin-bottom: 137px; 
+}	  
+.cinnamon-image{
+  grid-area: cinnamon-image; 
+}	
+.cinnamon-recipe{
+  grid-area: cinnamon-recipe;
+  padding-top: 20px;
+  padding-left: 42px;
+  padding-bottom: 22px; 
+}
+.cinnamon-recipe-header{
+  width: 492px;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: #055555;
+  margin-bottom: 13px; 
+}
+.cinnamon-recipe-bar {
+  width: 480px;
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; 
+}
+.cinnamon-recipe-elements{
+  width: 153px;
+  font-family: 'Open Sans', sans;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #555555; 
+}
+.cinnamon-timing{
+  padding: 0;
+  margin: 0;
+  margin-right: 10px; 
+}
+.cinnamon-clock-icon{
+  width: 14px;
+  margin-right: 2px; 
+}
+.cinnamon-rectangles{
+  padding: 0;
+  height: 10px;
+  width: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 10px; 
+}
+.rectangle {
+  width: 5px; 
+}
+.recipe-difficulty {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans;
+  font-size: 16px;
+  font-weight: 300; 
+}
+.cinnamon-recipe-button {
+  width: 105px;
+  border: 1.0px solid #c2c2c2;
+  font-family: "Josefin Sans", sans;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px 10px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+.cinnamon-recipe-button:hover{
+    background-color: whitesmoke;
+    color: #0a0a0a; 
+}
+.cinnamon-recipe-description{
+  width: 480px;
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  color: #000000; 
+}
+.cinnamon-recipe-instruction{
+  padding: 0;
+  font-family: "Josefin Sans", sans;
+  font-weight: 300;
+  margin-bottom: 16px; 
+}
+.cinnamon-recipe-directions-header{
+  font-family: "Playfair Display", serif;
+  font-weight: 700; 
+}  
+.cinnamon-recipe-direction{
+  margin-top: 19px;
+  font-family: "Josefin Sans", sans;
+  font-weight: 400;
+}
+.wrapper{
+  width: 1120px;
+  margin: 0 auto 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+} 
+.not-found{
+  margin-right: 84px;
+  width: 518px;
+  padding-top: 23px; 
+}
+.not-found-header{
+  font-family: "Josefin Sans", sans;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  margin-left: 44px;
+  margin-bottom: 11px; 
+}
+.not-found-styled-line{
+  width: 440px;
+  height: 2px;
+  opacity: 0.2;
+  background-color: #555555;
+  margin: 0 45px 145px 33px; 
+}
+.not-found-button{
+  width: 105px;
+  border: 1px solid #c2c2c2;
+  margin-right: auto;
+  padding: 9px 38px 9px 37px;
+  font-family: "Josefin Sans", sans;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 52px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+.not-found-button:hover{
+    background-color: whitesmoke;
+    color: #0a0a0a; 
+}
+.sorry{
+  width: 130px;
+  margin: 0 auto 108px; 
+}
+.sorry-header{
+  font-family: "Josefin Sans", sans;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 0 189 4px 199px;
+  text-align: center; 
+}
+.sorry-text{
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: #a9a9a9;
+  margin-bottom: 16px;
+  text-align: center;
+  text-transform: uppercase; 
+}
+.sorry-img{
+  width: 31px;
+  margin-left: 55px; 
+}
+.author{
+  width: 518px;
+  padding-top: 23px;
+  background: #ffffff; 
+}
+.author-header{
+  font-family: "Josefin Sans", sans;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  margin-left: 44px;
+  margin-bottom: 11px; 
+}
+.author-styled-line{
+  width: 440px;
+  height: 2px;
+  opacity: 0.2;
+  background-color: #555555;
+  margin: 0 auto 24px; 
+}
+.container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+}
+.author-image{
+  width: 128px;
+  margin-left: 32px;
+  margin-right: 20px; 
+}
+.author-name{
+  font-family: "Josefin Sans", sans;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 6px; 
+}
+.author-country{
+  font-family: "Josefin Sans", sans;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 12px; 
+}
+.social-networks-icons{
+  width: 99px;
+  opacity: 0.5;
+  margin-bottom: 18px;
+  cursor: pointer; 
+}
+.author-about-styled-line{
+  width: 291px;
+  height: 2px;
+  opacity: 0.2;
+  background-color: #555555; 
+}
+.about-lemon{
+  margin-left: 181px;
+  margin-bottom: 32px;
+  font-family: "Josefin Sans", sans;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.025em; 
+}
+.about-lemon-text{
+  width: 288px;
+  margin-left: 181px;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.025em;
+  margin-bottom: 22px; 
+}
+.signature{
+  width: 163px;
+  margin-left: 314px;
+  margin-bottom: 33px; 
+}
+footer{
+  width: 1120px;
+  opacity: 0.8;
+  background-color: #000000;
+  margin: auto;
+  padding: 72px 54px 55px 86px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; 
+}
+.footer-inner{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px; 
+}
+.footer-logo{
+  width: 87px; 
+}
+.footer-links{
+  width: 401px;
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; 
+}
+.footer-links a{
+  font-family: "Josefin Sans", sans;
+  color: #fefefe; 
+}
+.footer-rights{
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+}
+.footer-rights-text{
+  opacity: 0.5;
+  font-family: "Josefin Sans", sans;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #fefefe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+}
+.footer-rights-copyright{
+  width: 12px;
+  margin-right: 4px; 
+}
+.footer-icons{
+  width: 99px;
+  margin-left: auto;
+  cursor: pointer; 
+}
+*{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; 
+}
+.bananas-button, .cinnamon-recipe-button, .not-found-button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none; 
+}
+	
+
+
